@@ -53,5 +53,13 @@ video {
 }
 
 /* ====================================
-// base rules
+// SMACSS EXERCICE
 // ==================================== */
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
