@@ -1,0 +1,32 @@
+.flexbox-box {
+  font-size: 16px;
+  padding: 20px;
+  background: #42a5f5;
+  border: solid 1px #0d47a1;
+}
+
+.flexbox {
+  padding: 20px;
+}
+
+.flexbox-container {
+  display: flex;
+  margin-bottom: 30px;
+
+  &.t-1 {
+    flex-direction: row;
+    justify-content: center;
+  }
+  &.t-2 {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  &.t-3 {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .flexbox-box {
+      width: 25%;
+    }
+  }
+}
